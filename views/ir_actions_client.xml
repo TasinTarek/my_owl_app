@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="action_my_owl_app_client" model="ir.actions.client">
+            <field name="name">My Owl App</field>
+            <field name="tag">my_owl_app.Base</field>
+            <field name="target">main</field>
+        </record>    
+    
+    </data>
+    
+
+</odoo>

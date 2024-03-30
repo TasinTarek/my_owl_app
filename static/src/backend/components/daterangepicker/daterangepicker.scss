@@ -1,0 +1,26 @@
+.daterangepicker-container {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    display: inline-block;
+}
+.daterangepicker-container:hover {
+    cursor: pointer;
+}
+
+.daterangepicker-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daterangepicker-input i {
+    color: #777;
+}
+
+
+.daterangepicker-input i.fa-caret-down {
+    margin-left: auto;
+}

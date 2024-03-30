@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <t t-name="my_owl_app.MyDashboard">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top">
+        <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <i class="fa fa-bars"></i>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img
+                        src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                        height="20"
+                        alt="MDB Logo"
+                        loading="lazy"
+                        />
+                    </a>
+                    <!-- Left links -->
+                    <div>
+                        <h4>
+                            Import Export Bureau
+                        </h4>
+                        <h4>BD</h4>
+                    </div>
+                <!-- Left links -->
+                </div>
+                <div class="d-flex align-items-center">
+                    <div>
+                        <h4 class="m-0">Mamadou Abdallah</h4>
+                        <div class="d-flex flex-row-reverse">
+                            <p>IT Admin,</p>
+                        </div>
+                    </div>
+                    <div class="mx-2">
+                        <img
+                            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                            class="rounded-circle"
+                            height="45"
+                            alt="Black and White Portrait of a Man"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="bg-success p-3 rounded-circle">
+                        <i class="fa fa-bell-o text-white"></i>
+                    </div>
+                </div>
+            </div>
+        <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+        <div class="row">
+            <div class="col-2 bg-dark">
+                <div>
+                    Hello
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-7">
+                        <Graph type="'bar'" title="'Top Products Report'"/>
+                    </div>
+                    <div class="col-5">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <Graph type="'line'" title="'Top Products Report'"/>
+                    </div>
+                    <div class="col-5">
+                        <Graph type="'pie'" title="'Top Products Report'"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <Graph type="'pie'" title="'Top Products Report'"/>
+                    </div>
+                    <div class="col-5">
+                        <Graph type="'line'" title="'Top Products Report'"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <template id="my_home_dashboard" name="My Home Dashboard">
+            <html>
+                <head>
+                    <t t-call-assets="my_owl_app.assets"/>
+                </head>
+                <body>
+                   <div id="owl_wrapwrap">
+                   </div>
+                </body>
+            </html>
+        </template>
+    
+    </data>
+    
+
+</odoo>

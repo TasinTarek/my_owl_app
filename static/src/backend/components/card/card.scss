@@ -1,0 +1,43 @@
+.tt-text-primary {
+    color: #725ac1;
+}
+
+.custom-card {
+    background-color: #edf2fb;
+    border-radius: 8px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+    padding: 15px;
+}
+
+.custom-card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.custom-card:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #abc4ff;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+
+.custom-card:hover:before {
+    transform: scale(2.15);
+}
+
+

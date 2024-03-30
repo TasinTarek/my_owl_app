@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="my_owl_app.CardTemplate" owl="1">
+        <div class="col mb-2">
+            <div class="custom-card card cursor-pointer">
+                <h1 class="display-5"><span t-esc="props.value"/></h1>
+                <p><span t-esc="props.name"/></p>
+                <div>
+                    <span t-attf-class="text-#{ props.percentage > 0 ? 'success':'danger' }">
+                        <span t-attf-class="me-1 fa fa-arrow-#{ props.percentage > 0 ? 'up':'down' }"/>
+                        <span t-esc="props.percentage"/>%
+                    </span>
+                    <span> since last period</span>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>
+

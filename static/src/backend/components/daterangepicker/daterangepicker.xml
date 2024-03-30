@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="my_owl_app.DateRangePickerTemplate" owl="1">
+        <div id="reportrange" class="daterangepicker-container">
+            <div class="daterangepicker-input">
+                <i class="text-primary fa fa-calendar"></i>
+                <span class="text-primary fw-bold px-2" ></span>
+                <i class="text-primary fa fa-caret-down"></i>
+            </div>
+        </div>
+    </t>
+</templates>
