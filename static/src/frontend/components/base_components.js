@@ -4,15 +4,15 @@ const { Component, whenReady, App, onWillStart } = owl
 import { templates } from "@web/core/assets"
 import { loadJS } from "@web/core/assets"
 import { Graph } from "./graphs/graphs"
+import { Table } from "./tables/table"
 
 class Base extends Component {
     static template = "my_owl_app.MyDashboard"
-    static components = { Graph };
+    static components = { Graph, Table };
     setup(){
             onWillStart(async ()=>{
                 await loadJS(
-                "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js",
-                "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.min.css",
+                    "https://code.jquery.com/jquery-3.7.1.js",
                 )
             })
         }

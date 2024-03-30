@@ -18,6 +18,7 @@
         'base',
         'website',
         'portal',
+        'sale',
     ],
 
     # always loaded

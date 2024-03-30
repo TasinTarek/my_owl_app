@@ -63,32 +63,54 @@
         <div class="row">
             <div class="col-2 bg-dark">
                 <div>
-                    Hello
+                    
                 </div>
             </div>
             <div class="col-10">
                 <div class="row">
-                    <div class="col-7">
-                        <Graph type="'bar'" title="'Top Products Report'"/>
+                    <div class="col-4 m-0 p-0">
+                        <div class="shadow-sm border p-4 bg-white">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="text-primary fw-bold">Sale Orders</h3>
+                                <div class="px-3 py-1 bg-primary cursor-pointer">
+                                    <span class="fa fa-arrow-right text-white"/>
+                                </div>
+                            </div>
+                            <Graph type="'line'" title="'Top Products Report'"/>
+                        </div>
                     </div>
-                    <div class="col-5">
-
+                    <div class="col-4 m-0 p-0">
+                        <div class="shadow-sm border p-4 bg-white">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="text-primary fw-bold">Sale Orders</h3>
+                                <div class="px-3 py-1 bg-primary cursor-pointer">
+                                    <span class="fa fa-arrow-right text-white"/>
+                                </div>
+                            </div>
+                            <Graph type="'bar'" title="'Top Products Report'"/>
+                        </div>
+                    </div>
+                    <div class="col-4 m-0 p-0">
+                        <div class="shadow-sm border p-4 bg-white">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="text-primary fw-bold">Sale Orders</h3>
+                                <div class="px-3 py-1 bg-primary cursor-pointer">
+                                    <span class="fa fa-arrow-right text-white"/>
+                                </div>
+                            </div>
+                            <Graph type="'line'" title="'Top Products Report'"/>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-7">
-                        <Graph type="'line'" title="'Top Products Report'"/>
-                    </div>
-                    <div class="col-5">
-                        <Graph type="'pie'" title="'Top Products Report'"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-7">
-                        <Graph type="'pie'" title="'Top Products Report'"/>
-                    </div>
-                    <div class="col-5">
-                        <Graph type="'line'" title="'Top Products Report'"/>
+                    <div class="shadow-sm border p-4 bg-white">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h3 class="text-primary fw-bold">Data Table</h3>
+                            <div class="px-3 py-1 bg-primary cursor-pointer">
+                                <span class="fa fa-arrow-right text-white"/>
+                            </div>
+                        </div>
+                        <Table />
                     </div>
                 </div>
             </div>
