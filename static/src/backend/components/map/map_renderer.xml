@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <t t-name="my_owl_app.MapRenderer">
+        <div t-ref="map" style="height: 90dvh;"/>
+    </t>
+</templates>
